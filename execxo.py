@@ -58,4 +58,4 @@ else:
         print(f"O número {numero_} é ímpar.")
 finally:
     print("Fim do programa.")
-class saldoinsuficiente.erro
+
