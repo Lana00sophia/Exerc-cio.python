@@ -10,13 +10,24 @@ print(dobro(5))
 def soma(a,b):
     return a + b 
 print(soma(10,20))
-def mensagem(nome = "vitante"):
+def mensagem(nome = "visitante"):
     print("Olá "+ nome + "!")
 mensagem("Sophia")
 mensagem()
 
-def operacoes(a,b):
-    opera = int(input("Operação"))
+def operações(a,b):
+    soma = a + b 
+    subtra = a - b
+    multi = a * b
+    return soma ,subtra ,multi
+
+def media(*nums):
+    soma = sum(numeros)
+    quantidade = len(numeros)      
+    return soma / quantidade 
+
+    
+    
 
 
 
